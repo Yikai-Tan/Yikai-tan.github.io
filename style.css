@@ -75,7 +75,7 @@ header {
   color: rgba(202, 173, 197, 0.5); /* Transparent text color */
   font-family: "Comfortaa", sans-serif;
   text-decoration: none;
-  padding: 15px; /* Increased padding for larger touch area */
+  padding: 10px; /* Increased padding for larger touch area */
   font-size: 1.2em; /* Larger font size */
   position: relative;
   transition: color 0.3s; /* Transition for text color change */
