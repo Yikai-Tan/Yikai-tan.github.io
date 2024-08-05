@@ -444,6 +444,42 @@ header {
   padding: 10px;
   transition: background-color 0.3s;
 }
+.tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.tag {
+  background-color: #666;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  transition: background-color 0.3s;
+}
+
+.tag:hover {
+  background-color: #888;
+}
+
+/* Additional styles */
+.starting h1 {
+  font-weight: bolder;
+  font-size: 10vh;
+  font-family: "Comfortaa", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.starting h2 {
+  font-weight: bold;
+  font-size: 7vh;
+  font-family: "Comfortaa", sans-serif;
+  color: white;
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
